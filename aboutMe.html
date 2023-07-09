@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Details</title>
+    <style> 
+    #mobile,#email{margin-left: 20px;}
+span{margin-right: 10px;}
+#twenty{margin-left: 10px;}
+    </style>
   </head>
   <body>
     <h2>My Personal Details</h2>
@@ -16,7 +21,7 @@
     <p><strong>Name:</strong> Mohit Sharma</p>
     <h2><strong>Contact Details</strong></h2>
     <p>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Mobile:</strong>&nbsp;12345&nbsp;690&nbsp;90<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Email:</strong>&nbsp;mohit.sharma@gmail.com
+    <strong id="mobile">Mobile:</strong><span id="twenty">1234</span><span>5690</span><span>90</span><br id="number"/><strong id="email">Email:</strong>&nbsp;mohit.sharma@gmail.com
     </p>
     <hr />
     <h2><strong>My Technology Stack</strong></h2>
@@ -35,30 +40,35 @@
       td {
         border: 2px solid rgb(36, 155, 160);
         border-collapse: collapse;
+     th.academic{margin-right: 10px;}
       }
+      .academic th {padding: 10px; text-align: center;}
+      .graduation td {padding: 10px; text-align: center;}
+      .hsc td {padding: 10px; text-align: center;}
+      .ssc td {padding: 10px; text-align: center;}
     </style>
     <table>
       <thead>
-        <tr>
-          <th>Sr.NO</th>
+        <tr class="academic">
+          <th> Sr.No </th>
           <th>Academic</th>
           <th>College Name</th>
           <th>University/Board</th>
         </tr>
       </thead>
-      <tr>
+      <tr class="graduation">
         <td>1</td>
         <td>Graduation</td>
         <td>COEP College</td>
         <td>Pine University</td>
       </tr>
-      <tr>
+      <tr class="hsc">
         <td>2</td>
         <td>HSC or 12th</td>
         <td>The lexicon International School</td>
         <td>Maharashtra Divisional Board</td>
       </tr>
-      <tr>
+      <tr class="ssc">
         <td>3</td>
         <td>SSC or 10th</td>
         <td>Indus International School</td>
