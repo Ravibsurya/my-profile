@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>My Profile</title>
-    <style> header{background-color: rgb(226, 43, 156);color: black;}  nav{ text-transform: uppercase;}a{color: black;}a:link{text-decoration: none;}
+    <style> header{background-color: rgb(226, 43, 156);color: black;} 
+    #follow{margin-right: 20px;}
+    nav{ text-transform: uppercase;}a{color: black;}a:link{text-decoration: none;}
    #ravi,#phone,#mail,#resume,#home,#tech,#project,#education,#about,#git,#linkedin,#insta,#fb{margin-right: 20px;}
+   nav ul li {display: inline-block; width: 150px;}
+   .icons li {display: inline-block; width: 100px; } 
    </style>
 </head>
 <body>
@@ -16,20 +20,24 @@
     <i id="mail" class="fa fa-envelope" aria-hidden="true"> ravibsurya1994@gmail.com </i>
  <a id="resume" href="assets/Ravi.cv-2.pdf"><button type="submit">Download Resume </button></a><br><br>
 </header>
-    <nav class="links">
-    <a id="home" href="home.html"target="myFrame">Home</a>
-    <a id="tech" href="techStack.html"target="myFrame">Tech Stack</a>
-    <a id="project" href="project.html"target="myFrame">Project</a>
-    <a id="education" href="education.html"target="myFrame">Education</a>
-    <a id="about" href="aboutMe.html" target="myFrame">About Me</a><br><br>
-    </nav>
+    <nav>
+        <ul> 
+            <li><a id="home" href="home.html"target="myFrame">Home</a></li>
+            <li><a id="tech" href="techStack.html"target="myFrame">Tech Stack</a></li>
+            <li><a id="project" href="project.html"target="myFrame">Project</a></li>
+            <li><a id="education" href="education.html"target="myFrame">Education</a></li>
+            <li><a id="about" href="aboutMe.html" target="myFrame">About Me</a></li>
+        </ul>
+    </nav><br>
     <iframe width="950" height="380" name="myFrame" src="home.html" frameborder="0" ></iframe>
     <footer>
-    <span>follow Me</span>&nbsp;&nbsp;&nbsp;
-   <a id="git" href="https://github.com/Ravibsurya/my-profile"> <i class="fa fa-github" aria-hidden="true"></i></a>
-   <a id="linkedin" href="https://www.linkedin.com/in/ravindrakumar-suryavanshi-a06167205/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-   <a id="insta" href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a></a>
-   <a id="fb" href="https://www.facebook.com/"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+<ul class="icons">
+    <li><span id="follow">follow Me</span></li>
+    <li> <a id="git" href="https://github.com/Ravibsurya/my-profile"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
+    <li><a id="linkedin" href="https://www.linkedin.com/in/ravindrakumar-suryavanshi-a06167205/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+    <li><a id="insta" href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a></a></li>
+    <li> <a id="fb" href="https://www.facebook.com/"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+</ul>
    <p>Copyright &COPY;2023 Zoom Video Communication, Inc. All rights reserved.</p>
    </footer>
 </body>
