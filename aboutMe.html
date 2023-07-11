@@ -4,37 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
     <style> 
     #mobile,#email{margin-left: 20px;}
 span{margin-right: 10px;}
-#twenty{margin-left: 10px;}
-    </style>
-  </head>
-  <body>
-    <h2>My Personal Details</h2>
-    <img
-      src="assets/download.png"
-      width="300px"
-      height="350px"
-      alt="Profile Photo"
-    />
-    <p><strong>Name:</strong> Mohit Sharma</p>
-    <h2><strong>Contact Details</strong></h2>
-    <p>
-    <strong id="mobile">Mobile:</strong><span id="twenty">1234</span><span>5690</span><span>90</span><br id="number"/><strong id="email">Email:</strong>&nbsp;mohit.sharma@gmail.com
-    </p>
-    <hr />
-    <h2><strong>My Technology Stack</strong></h2>
-    <ul>
-      <li>HTML5</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Angular</li>
-    </ul>
-    <hr />
-    <h2>Academic Details</h2>
-    <style>
-      table,
+#twenty,#mohit {margin-left: 10px;}
+table,
       tr,
       th,
       td {
@@ -46,7 +23,32 @@ span{margin-right: 10px;}
       .graduation td {padding: 10px; text-align: center;}
       .hsc td {padding: 10px; text-align: center;}
       .ssc td {padding: 10px; text-align: center;}
+      h2,.email,.name,.mobile,th{font-family: 'Poppins', sans-serif;}
+       td,li,#mohit,#mail,#number{font-family: 'Signika Negative', sans-serif;}
     </style>
+  </head>
+  <body>
+    <h2>My Personal Details</h2>
+    <img
+      src="assets/download.png"
+      width="300px"
+      height="350px"
+      alt="Profile Photo"
+    />
+    <p><strong class="name">Name:</strong><span id="mohit">Mohit Sharma</span> </p>
+    <h2><strong>Contact Details</strong></h2>
+    <p>
+    <strong class="mobile" id="mobile">Mobile:</strong> <span id="number"><span id="twenty">1234</span><span>5690</span><span>90</span></span><strong class="email" id="email">Email:</strong>&nbsp;<span id="mail">mohit.sharma@gmail.com</span></p>
+    <hr />
+    <h2><strong>My Technology Stack</strong></h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Angular</li>
+    </ul>
+    <hr />
+    <h2>Academic Details</h2>
     <table>
       <thead>
         <tr class="academic">
