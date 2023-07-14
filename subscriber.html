@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        sup{color: red;}
+        div{ padding-top: 1px;  padding-left: 25px; padding-bottom: 1px; padding-right: 2px;
+            border-radius: 10px;
+            color: rgb(251, 248, 248); background-color: rgb(9, 156, 205);}
+    button{margin-left:250px; border-radius: 5px;background-color: rgb(241, 244, 245);}
+    input[type="text"]{
+            padding-left: 10px; padding-right: 150px; padding-top: 10px; background-color: rgb(241, 244, 245);
+        }
+        input{border-radius: 7px;}
+     </style>
+</head>
+<body>
+    <fieldset style=" border-radius:15px; width: 250px; height:450px;">
+<h2>Subscriber</h2><hr> 
+<div>
+    <p> We're sorry to see you go, but hey, no hard <br> feelings, hopefully we will see you back <br> one day.<br> Please fill in your email address in order to <br> unsubscribe from the list.           
+    <br> You will receive an email to confrim your <br> unsubscription, just to make sure this is <br> not an accident or somebody else tries to <br> unsubscribe you.</p>
+</div>
+<form>
+    <table>
+        <tbody>
+            <tr>
+                <td><label> Email<sup>*</sup></label></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>  
+            </tr>
+            <tr>
+                <td> <label>Unsubscribe reason</label></td>
+            </tr>
+            <tr>
+<td><input type="text" placeholder="Unsubscribe reason"></td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+<button type="submit"> Unsubscribe </button>
+</form>
+</fieldset>
+</body>
+</html>
