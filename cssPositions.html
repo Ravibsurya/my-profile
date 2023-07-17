@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li {list-style: none;}
+.point li::before{content: "✔️";}
+#free::before{content: "❌";}
+.five{display: inline-block;box-shadow: 8px 8px 5px -8px rgb(82, 80, 80);border-radius:7px;
+    width: 230px;
+    height:260px;
+    background-color:aliceblue ;
+    position:relative;
+    top: 50px;
+}
+.ten{display: inline-block;box-shadow: 8px 8px 5px -8px rgb(82, 80, 80); border-radius:7px;
+    width: 230px;
+    height: 260px;
+    background-color:aliceblue ;
+position:relative;
+top:20px;
+left:20px;
+}
+.twenty{display: inline-block;box-shadow: 8px 8px 5px -8px rgb(82, 80, 80); border-radius:7px;
+    width: 230px;
+    height: 260px;
+    background-color:aliceblue ;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+.basic{box-shadow: 13px 13px 10px -8px rgb(248, 245, 245); border-top-left-radius: 7px; border-top-right-radius: 7px; background-color: rgb(10, 158, 54);
+text-align:center ;color: white;margin-top:1px;
+}
+.standard{box-shadow: 13px 13px 10px -8px rgb(248, 245, 245);border-top-left-radius: 7px; border-top-right-radius: 7px;background-color: rgb(238, 5, 5);
+text-align:center ;color: white;margin-top:1px;
+}
+.gb{box-shadow: 13px 13px 10px -8px rgb(248, 245, 245);border-top-left-radius: 7px; border-top-right-radius: 7px;background-color: rgb(10, 158, 54);
+text-align:center ;color: white;margin-top:1px;
+}
+h3{text-align: center;}
+button{border-radius: 5px;color: white;background-color: rgb(10, 158, 54);margin-left: 40px; width: 150px; }
+   </style> 
+<body>
+    <div class="five">
+        <h2 class="basic"> Basic </h2>
+        <ul class="point">
+            <li>Hosting</li>
+            <li id="free"> Domain</li>
+            <li>1 GB Space</li>
+            <li id="free">Free SSL</li>
+            <li>1 Website Host</li>
+        </ul>
+<h3>$5</h3>
+<button type="submit"> Buy Now </button>
+    </div>
+    <div class="ten">
+        <h2 class="standard"> Standard </h2>
+        <ul  class="point">
+            <li>Hosting</li>
+            <li> Domain</li>
+            <li>10 GB Space</li>
+            <li id="free">Free SSL</li>
+            <li>4 Website Host</li>
+        </ul>
+        <h3>$10</h3>
+        <button type="submit"> Buy Now </button>
+    </div>
+    <div class="twenty">
+        <h2 class="gb"> Standard </h2>
+        <ul  class="point">
+            <li>Hosting</li>
+            <li> Domain</li>
+            <li>10 GB Space</li>
+            <li>Free SSL</li>
+            <li>4 Website Host</li>
+        </ul>
+        <h3>$20</h3>
+        <button type="submit"> Buy Now </button>
+    </div>
+</body>
+</html>
